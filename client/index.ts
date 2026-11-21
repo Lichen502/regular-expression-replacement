@@ -5,7 +5,7 @@ import 'virtual:uno.css'
 
 export default (ctx: Context) => {
   ctx.page({
-    name: '扩展页面',
+    name: '正则替换',
     path: '/custom-page',
     component: Page,
   })
