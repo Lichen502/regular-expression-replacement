@@ -9,7 +9,10 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "cd ../.. && npx --no-install yakumo build",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "chatbot",
     "koishi",
